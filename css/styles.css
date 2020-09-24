@@ -45,12 +45,12 @@ main {
 
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+	font-size: 2.75em;
+	font-weight: 400;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
 }
