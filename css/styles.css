@@ -28,6 +28,12 @@ html {
 	}
 }
 
+@font-face {
+	font-family: 'Inter', sans-serif;
+	src: url('Inter-Regular-slnt=0.ttf')  format('truetype'),
+	url('Inter-Regular-slnt=0.ttf') format('woff'); 
+}
+
 .icons-social i {
 	font-size: 3em;
 }
