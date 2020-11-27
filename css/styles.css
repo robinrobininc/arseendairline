@@ -61,6 +61,7 @@ main > .intro {
     margin-bottom: 24px;
     margin-bottom:1.5rem;
 	font-size: 3rem;
+	color: rgb(50,100,94);
 }
 
 main > .tagline {
