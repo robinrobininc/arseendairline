@@ -49,6 +49,7 @@ main {
 
 main > .intro {
 	font-family: 'Open Sans Condensed', sans-serif;
+	color: #29c785;
 	font-size: 2.75em;
 	font-weight: 900;
 }
