@@ -89,13 +89,14 @@ main > .intro {
     margin-bottom: 24px;
     margin-bottom:1.5rem;
 	font-size: 3rem;
-	color: rgb(50,100,94);
+	color: rgb(18, 53, 36);
 }
 
 main > .tagline {
 	font-size: 1.0rem;
 	margin: 1.5rem 0;
 	font-weight: 200;
+	color: rgb(18, 53, 36);
 }
 
 .icons-social i {
