@@ -29,7 +29,6 @@ img {
     font-family: Harmonia Sans W01;
     font-style: normal;
     font-weight: 600;
-    src: url("/a.woff2") format("woff2"), url("/b.woff") format("woff")
 }
 
 @media (min-width: 576px) {
