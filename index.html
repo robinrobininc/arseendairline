@@ -12,10 +12,37 @@
 		<div class="intro">Welcome to Arse End Airline... </div>
 		<div class="intro"></div>
 		<div class="intro"></div>
+		<div class="intro">
+			Sending in.....<div id="myCounter">
+		</div>
+		<div class="intro"></div>
+		<div class="intro"></div>
 		<div class="tagline">get ready for no support and shit service....</div>
 		<div class="tagline">
  <a href="mailto:goodluck@qantas.com">as_if_you_can_email_us@qantas.com</a></div>
 		
 	</main>
+	<script type="text/javascript">
+
+        var milisec = 0
+        var seconds = 30
+        document.getElementById("myCounter").innerHTML = '5';
+
+        function display() {
+            if (milisec <= 0) {
+                milisec = 9
+                seconds -= 1
+            }
+            if (seconds <= -1) {
+                milisec = 0
+                seconds += 1
+            }
+            else
+                milisec -= 1
+            document.getElementById("myCounter").innerHTML = seconds;
+            setTimeout("display()", 100)
+        }
+        display() 
+    </script>
 </body>
 </html>
